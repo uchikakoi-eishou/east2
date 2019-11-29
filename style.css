@@ -1,0 +1,38 @@
+body {
+    background: #eee;
+    color: #000;
+}
+.inner {
+    /* background: #ddd; */
+    width: 90%;
+    /* height: 60px; */
+    margin: 0 auto;
+}
+.container {
+    /* background: #ccc; */
+    margin-top: 40px;
+}
+.header_menu {
+    /* background: #bbb; */
+    height: 60px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+.header_menu ul {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    line-height: 60px;
+    
+}
+.header_menu li {
+}
+.header_menu a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 0 20px;
+}
+.header_menu a:hover {
+    background: #fff;
+}
