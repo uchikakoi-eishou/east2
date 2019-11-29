@@ -2,6 +2,10 @@ body {
     background: #eee;
     color: #000;
 }
+header {
+    position: fixed;
+    width: 100%;
+}
 .inner {
     /* background: #ddd; */
     width: 90%;
