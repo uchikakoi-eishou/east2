@@ -1,0 +1,85 @@
+// start variable
+$default-px: 40px;
+$default-color: #eee;
+// end variable
+
+// start common
+body
+{
+    background: $default-color;
+    color: #111;
+    // margin-top: 100px;
+}
+.inner
+{
+    // background: $default-color;
+    width: 90%;
+    /* height: 60px; */
+    margin: 0 auto;
+}
+.container
+{
+    /* background: #ccc; */
+    margin-top: $default-px;
+}
+// end common
+
+// start header
+header
+{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: $default-px + 40;
+    background: $default-color;
+    // overflow: hidden;
+}
+.header__menu
+{
+    background: $default-color;
+    // width: 100%;
+    /* background: #bbb; */
+    // position: fixed;
+    height: $default-px * 1.5;
+    margin-top: $default-px;
+    border-top: #ccc 1px solid;
+    border-bottom: #ccc 1px solid;
+    ul
+    {
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        line-height: $default-px * 1.5;
+        
+    }
+    .header_logo
+    {
+        font-family: 'Cinzel', serif;
+    }
+    a
+    {
+        text-decoration: none;
+        color: #555;
+        display: block;
+        padding: 0 $default-px * 0.5;
+        &:hover {
+            background: #fff;
+        }
+    }
+}
+// end header
+
+// start main
+main
+{
+    margin-top: 140px;
+}
+// end main
+
+// start header__img
+.header__img {
+    width: 100%;
+    overflow: hidden;
+}
+// end header__img
